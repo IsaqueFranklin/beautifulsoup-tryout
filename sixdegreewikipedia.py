@@ -16,3 +16,6 @@ while len(links) > 0:
     newArticle = links[random.randint(0, len(links)-1)].attrs['href']
     print(newArticle)
     links = getLinks(newArticle)
+
+#Parei na página 54 do livro de webscrapping
+#https://www.scaler.com/topics/python/encapsulation-in-python/
