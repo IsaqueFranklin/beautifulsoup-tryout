@@ -17,5 +17,7 @@ class Scraper:
             if "mobile" in url:
                 print("\n" + url)
 
+                
+
 news = "https://amazon.com.br"
 Scraper(news).scrape()
