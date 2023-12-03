@@ -3,3 +3,5 @@
 #Source for the location of the image => myImgTag.attrs['src']
 
 #Lambda functions in bs4 => bs.find_all(lambda tag: tag.get_text() == 'Or maybe he\'s only resting?')
+
+print('haha nice!')
